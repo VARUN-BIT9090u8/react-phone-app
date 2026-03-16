@@ -1,16 +1,83 @@
-# React + Vite
+# 📱 React Phone App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully functional **mobile phone UI** built with React + Vite that simulates real smartphone behavior.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [your-app.netlify.app](https://your-app.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Apps
+| App | Features |
+|-----|----------|
+| 📇 Contacts | Add, delete, search, favourite, groups, photo upload |
+| 💬 Messages | Chat, emoji picker, image sharing, read receipts ✓✓ |
+| 📞 Dialer | Keypad, recent calls, missed call badge |
+| 📷 Camera | Live camera, capture photos, save to gallery |
+| 🖼️ Gallery | Albums, camera roll, import photos, full preview |
+| 🎵 Music | Upload audio, EQ, shuffle, repeat modes |
+| 🧮 Calculator | Basic + Scientific mode (sin, cos, log, √) |
+| 📝 Notes | Multiple notes, titles, search, word count |
+| 🌤️ Weather | Live API data, 5 cities, hourly forecast |
+| ⏰ Alarm | Set alarms, repeat days, snooze, sound selector |
+| ⚙️ Settings | Theme, wallpaper, font size, language, WiFi/BT |
 
-## Expanding the ESLint configuration
+### OS Level
+- 🔐 PIN Lock Screen (code: 1234)
+- 🔔 Notification Center (swipe down)
+- 📱 App Switcher (hold home button)
+- 🎨 Animated Wallpapers
+- 🔋 Battery simulation with charging
+- 🌙 Dark / Light mode
+- 📳 Vibration feedback
+- 🖱️ Drag to reorder apps
+- 📲 PWA — installable on mobile
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React 18** — Component architecture, Hooks
+- **Vite** — Build tool
+- **CSS** — Custom mobile UI styling
+- **localStorage** — Persistent data
+- **Open-Meteo API** — Free live weather data
+- **Web APIs** — Camera, Vibration, Service Worker
+
+---
+
+## 💻 Run Locally
+
+```bash
+git clone https://github.com/YOURUSERNAME/react-phone-app.git
+cd react-phone-app
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173`
+
+---
+
+## 📦 Build & Deploy
+
+```bash
+npm run build
+# drag dist/ folder to netlify.com/drop
+```
+
+---
+
+## 🧠 What I Learned
+
+- State-based custom routing (no React Router)
+- Production debugging — first-render undefined state issues
+- Defensive rendering and safe localStorage parsing
+- PWA setup with service workers and manifest
+- Real API integration (Open-Meteo, no API key needed)
+- Mobile UI simulation with CSS animations
+
+---
+
+Built by **BANDI** 🚀
